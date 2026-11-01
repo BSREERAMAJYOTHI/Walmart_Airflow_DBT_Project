@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+# Airflow logs and database
+airflow/logs/
+logs/
+airflow/airflow.db
+airflow/airflow.cfg
+
+# dbt generated files
+target/
+dbt_packages/
+
+# IDE settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python version file
+.python-version
+airflow/config/airflow.cfg
